@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+
+}
+
+.imgInicio{
+    background-repeat: no-repeat;
+    height: 922px;
+    width: 400px;  
+
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Playwrite CU", cursive;
+}
+
+.nombreR{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Bebas Neue", sans-serif;
+    margin-top: -930px;
+    font-size: 70px;
+    color: rgb(247, 247, 247);
+    
+}
+
+.imgProximo{
+    height: 80px;
+    width: 80px;
+    margin-top: -500px;
+    border: none;
+    border-radius: 4px;
+    background: linear-gradient(orange);
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.6);
+    transition: all 100ms;
+    
+}
+.imgProximo:active{
+    transform: translate(-2px);
+    box-shadow: 0 3px 1px rgba(0, 0, 0, 0.6);
+
+}
+

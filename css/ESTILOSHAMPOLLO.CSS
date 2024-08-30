@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Playwrite CU", cursive;
+}
+
+.fondoP{
+    width: 400px;
+    height: 922px;
+    background-color: rgb(255, 236, 195);
+
+}
+
+.fimagenes{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    margin-top: -922px;
+    width: 400px;
+    height: 400px;
+    background-color: rgb(255, 236, 195);
+
+}
+
+.flecha{
+    background-color: black;
+    border-radius: 5px;
+    margin-left: -120px;
+    margin-top: -320px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+.flecha:hover{
+    transform: scale(1.1);
+    background-color: black;
+    border-color: black;
+}
+
+.imgbregreso{
+
+}
+
+.fcontenido{
+    width: 400px;
+    height: 522px;
+    margin-top: -22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 1.5rem;
+}
+
+.tituloHam{
+    margin-top: -450px;
+    font-size: 25px;
+}
+
+.increDecre{
+    height: 30px;
+    width: 100px;
+    margin-top: -440px;
+    margin-left: 230px;
+    background-color: oldlace;
+    border-radius: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(139, 0, 0, .493);
+    box-shadow: rgba(0, 0, 0, .1) 0 10px 12.5px -2.5px, 0 rgba(0, 0, 0, .04) 0 5px 5px -2.5px;
+
+}
+
+.increDecre span {
+    width: 50%;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 250px;
+    cursor: pointer; 
+
+}
+
+.prec{
+    margin-top: -27px;
+    margin-left: -250px;
+    font-size: 1.4rem;
+    color: #ffa600;
+}
+
+.tama{
+    display: flex;
+    margin-top: 20px;
+    color: #ffa600;
+    font-size: 20px;
+}
+
+.apar{
+    margin-left: 20px;
+    border-radius: 5px;
+    border-color: #ffa600;
+    color: #ffa600;
+    cursor: pointer;
+}
+
+.des{
+    display: flex;
+    margin-top: 20px;
+    margin-left: -250px;
+    font-size: 20px;
+}
+
+.tex{
+    display: flex;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.increDecre span.num{
+    font-size: 20px;
+    border-left: 1px solid rgba(0, 0, 0, .1);
+    border-right: 1px solid rgba(0, 0, 0, .1);
+    pointer-events: none;
+
+}
+
+
