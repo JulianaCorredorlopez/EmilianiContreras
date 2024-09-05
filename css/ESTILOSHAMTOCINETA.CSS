@@ -1,11 +1,12 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+
 }
 
-.contenedor {
+.contenedor{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,13 +14,14 @@
     font-family: "Playwrite CU", cursive;
 }
 
-.fondoP {
+.fondoP{
     width: 400px;
     height: 922px;
     background-color: rgb(255, 236, 195);
+
 }
 
-.fimagenes {
+.fimagenes{
     display: flex;
     flex-direction: column; 
     align-items: center;
@@ -28,40 +30,23 @@
     width: 400px;
     height: 400px;
     background-color: rgb(255, 236, 195);
+
 }
 
-.flecha {
+.flecha{
     background-color: black;
     border-radius: 5px;
     margin-left: -120px;
     margin-top: -10px;
     cursor: pointer;
     transition: 0.5s;
+
 }
 
-.flecha:hover {
+.flecha:hover{
     transform: scale(1.1);
     background-color: black;
     border-color: black;
-}
-
-.carritoC {
-    margin-left: 92px;
-    margin-top: -25px;
-    width: 5px;
-    height: 5px;
-    cursor: pointer;
-    transition: 0.5s;
-}
-
-.carritoC:hover {
-    transform: scale(1.1);
-    border-color: black;
-}
-
-.imgcarrito {
-    height: 35px;
-    width: 35px;
 }
 
 .carousel-container {
@@ -116,8 +101,9 @@
 .prev-button:hover, .next-button:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
+/*fin carrusel*/
 
-.fcontenido {
+.fcontenido{
     width: 400px;
     height: 522px;
     margin-top: -22px;
@@ -129,12 +115,12 @@
     border-radius: 1.5rem;
 }
 
-.tituloHam {
+.tituloHam{
     margin-top: -450px;
     font-size: 25px;
 }
 
-.incredecre {
+.incredecre{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -143,7 +129,7 @@
     margin-left: 200px;
 }
 
-.botones {
+.botones{
     background-color: #ffa600;
     color: white;
     border: none;
@@ -154,42 +140,47 @@
     transition: background-color 0.3s;
 }
 
-.botones:hover {
-    background-color: #e09b00;
+.botones:hover{
+    background-color: #ffa600;
 }
 
-.display {
+.display{
     font-size: 24px;
     font-weight: bold;
 }
 
-.price {
+.prec{
     margin-top: -27px;
     margin-left: -250px;
     font-size: 1.4rem;
     color: #ffa600;
 }
 
-.des {
+.tama{
     display: flex;
-    margin-top: 45px;
+    margin-top: 20px;
+    color: #ffa600;
+    font-size: 20px;
+}
+
+.apar{
+    margin-left: 20px;
+    border-radius: 5px;
+    border-color: #ffa600;
+    color: #ffa600;
+    cursor: pointer;
+}
+
+.des{
+    display: flex;
+    margin-top: 20px;
     margin-left: -250px;
     font-size: 20px;
 }
 
-.tex {
+.tex{
     display: flex;
-    margin-top: 25px;
+    margin-top: 20px;
     font-size: 15px;
 }
 
-.botonAgregar {
-    background-color: #ffa600;
-    margin-top: 120px;
-    color: white;
-    border: none;
-    width: 340px;
-    height: 50px;
-    cursor: pointer;
-    border-radius: 5px;
-}
