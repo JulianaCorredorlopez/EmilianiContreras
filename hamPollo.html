@@ -27,6 +27,26 @@
           <button class="flecha"><img src="img/bregreso.png" class="imgbregreso"></button>
         </a>
       </div>
+      <div class="carritoC">
+        <a href="carritoC.html">
+          <button class="carritoC"><img src="img/carrito.png" class="imgcarrito"></button>
+        </a>
+      </div>
+      <div class="carousel-container">
+        <div class="carousel">
+            <div class="carousel-item">
+                <img src="img/imgCarruselH1.png" alt="Imagen 1">
+            </div>
+            <div class="carousel-item">
+                <img src="img/imgCarruselH2.png" alt="Imagen 2">
+            </div>
+            <div class="carousel-item">
+                <img src="imagen3.jpg" alt="Imagen 3">
+            </div>
+        </div>
+        <button class="prev-button" onclick="moveCarousel(-1)">&#10094;</button>
+        <button class="next-button" onclick="moveCarousel(1)">&#10095;</button>
+    </div>
     </div>
 
     <div class="fcontenido">
@@ -34,27 +54,18 @@
 
     </div>
 
-    <div class="increDecre">
-        <span class="minus" onclick="minus">-</span>
-        <span class="num" onclick="num">0</span>
-        <span class="plus" onclick="plus">+</span>
+    <div class="incredecre">
+      <button class="botones" onclick="decre()">-</button>
+      <span class="display" id="quantity1">1</span>
+      <button class="botones" onclick="incre()">+</button>
+  </div>
 
-    </div>
-
-    <div class="prec">$22.00</div>
-
-    <div class="tama">
-      <label for="tam" class="tam">Tamaño:</label>
-      <select name="" id="tam" class="apar">
-        <option value="peq" class="peq">Pequeña</option>
-        <option value="med" class="med">Mediana</option>
-        <option value="gra" class="gran">Grande</option>
-      </select>    
-    </div>
+    <div class="price">$22.00</div>
 
     <div class="des">Descripción</div>
     <div class="tex">Pechuga de pollo crujiente sazonada, cubierta con<br>queso derretido obligatorio y apilada en panecillos<br>suaves con cebolla, aguacate, lechuga, tomate y<br>mayonesa de ajo (si se solicita).</div>
 
+    <button class="botonAgregar" onclick="addToCar('Hamburguesa de pollo', 22.00, 'size1', 'counter')">Agregar al carrito</button>
   </div>
 
 </body>

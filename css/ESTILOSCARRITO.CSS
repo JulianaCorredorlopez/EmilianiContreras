@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Playwrite CU", cursive;
+}
+
+.fondoP{
+    width: 400px;
+    height: 922px;
+    background-color: rgb(255, 236, 195);
+
+}
+
+/* Estilo de la sección del carrito */
+.cart {
+    width: 50%;
+    background-color: white;
+    margin-top: -922px;
+    width: 400px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.cart ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Estilo de los productos dentro del carrito */
+.cart ul li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart ul li div {
+    display: flex;
+    align-items: center;
+}
+
+/* Estilo de los botones de cantidad */
+.cart ul li input {
+    width: 40px;
+    text-align: center;
+    margin: 0 5px;
+}

@@ -123,10 +123,44 @@
 .ham{
     margin-top: 50px;
     margin-left: 10px;
-    background-color: white;
     font-weight: 0.5px;
     color: rgb(0, 0, 0);
     font-size: 0.7rem;   
+    padding: 1rem 2.5rem;
+    border: 2px solid #ffa600;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+
+}
+
+.imgh{
+    width: 20px;
+    height: 15px;
+
+}
+
+.ham:hover{
+    transform: scale(1.1);
+    background-color: #ffa600;
+    border-color: #ffa600;
+}
+
+.imgHam{
+    width: 20px;
+    height: 15px;
+
+}
+
+.piz{
+    margin-top: 50px;
+    margin-left: 10px;
+    background-color: white;
+    font-weight: 0.5px;
+    color: rgb(0, 0, 0);
+    font-size: 0.7rem; 
     padding: 1rem 2.5rem;
     border: 2px solid #ffa600;
     border-radius: 1rem;
@@ -138,35 +172,11 @@
 
 }
 
-.ham:hover{
+.piz:hover{
     transform: scale(1.1);
     background-color: #ffa600;
     border-color: #ffa600;
 }
-
-.imgh{
-    width: 20px;
-    height: 15px;
-
-}
-
-
-.piz{
-    margin-top: 50px;
-    margin-left: 10px;
-    background-color: #ffa600;
-    font-weight: 0.5px;
-    color: rgb(0, 0, 0);
-    font-size: 0.7rem; 
-    padding: 1rem 2.5rem;
-    border: 2px solid #ffa600;
-    border-radius: 1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
 
 .imgPiz{
     width: 20px;
@@ -177,7 +187,7 @@
 .lasa{
     margin-top: 50px;
     margin-left: 10px;
-    background-color: white;
+    background-color: #ffa600;
     font-weight: 0.5px;
     color: rgb(0, 0, 0);
     font-size: 0.7rem;  
@@ -190,12 +200,6 @@
     justify-content: center;
     align-items: center;
 
-}
-
-.lasa:hover{
-    transform: scale(1.1);
-    background-color: #ffa600;
-    border-color: #ffa600;
 }
 
 .imgLasa{

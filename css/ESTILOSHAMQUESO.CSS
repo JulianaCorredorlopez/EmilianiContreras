@@ -49,25 +49,6 @@
     border-color: black;
 }
 
-.carritoC{
-    margin-left: 92px;
-    margin-top: -25px;
-    width: 5px;
-    height: 5px;
-    cursor: pointer;
-    transition: 0.5s;
-
-}
-
-.carritoC:hover{
-    transform: scale(1.1);
-    border-color: black;
-}
-
-.imgcarrito{
-    height: 35px;
-    width: 35px;
-}
 .carousel-container {
     border-color: black;
     margin-top: 0px;
@@ -168,11 +149,18 @@
     font-weight: bold;
 }
 
-.price{
+.prec{
     margin-top: -27px;
     margin-left: -250px;
     font-size: 1.4rem;
     color: #ffa600;
+}
+
+.tama{
+    display: flex;
+    margin-top: 20px;
+    color: #ffa600;
+    font-size: 20px;
 }
 
 .apar{
@@ -185,24 +173,14 @@
 
 .des{
     display: flex;
-    margin-top: 45px;
+    margin-top: 20px;
     margin-left: -250px;
     font-size: 20px;
 }
 
 .tex{
     display: flex;
-    margin-top: 25px;
+    margin-top: 20px;
     font-size: 15px;
 }
 
-.botonAgregar{
-    background-color: #ffa600;
-    margin-top: 120px;
-    color: white;
-    border: none;
-    width: 340px;
-    height: 50px;
-    cursor: pointer;
-    border-radius: 5px;
-}

@@ -1,20 +1,20 @@
 //boton incremento y decremento
-let count = 1;
+let count = 0;
 
 function incre() {
     count++;
-    document.getElementById('quantity1').innerText = count;
+    document.getElementById('counter').innerText = count;
 }
 
 function decre() {
-    if (count > 1) {
+    if (count > 0) {
         count--;
     }
-    document.getElementById('quantity1').innerText = count;
+    document.getElementById('counter').innerText = count;
 }
 
 //carrusel de imagenes
-let currentIndex = 1;
+let currentIndex = 0;
 
 function moveCarousel(direction) {
     const carousel = document.querySelector('.carousel');
@@ -22,10 +22,10 @@ function moveCarousel(direction) {
 
     currentIndex += direction;
 
-    if (currentIndex < 1) {
-        currentIndex = items.length - 2;
+    if (currentIndex < 0) {
+        currentIndex = items.length - 1;
     } else if (currentIndex >= items.length) {
-        currentIndex = 1;
+        currentIndex = 0;
     }
 
     const offset = -currentIndex * 100;
