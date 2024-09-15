@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vista solo en celular</title>
+    <style>
+        /* Estilo para el mensaje de error, ocultarlo por defecto */
+        #mensajeError {
+            display: none;
+            color: red;
+            font-size: 20px;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        /* Si está en pantalla grande, el contenido de la vista móvil se oculta */
+        .solo-celular {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="solo-celular">
+        <h1>Esta vista es para celulares</h1>
+        <p>Bienvenido a la versión móvil de nuestra página.</p>
+    </div>
+
+    <div id="mensajeError">
+        <h1>Esta página solo está disponible en dispositivos móviles</h1>
+        <p>Por favor, visualízala en un teléfono celular.</p>
+    </div>
+
+    <script>
+        function detectarPantalla() {
+            if (window.innerWidth > 768) {
+                // Mostrar mensaje de error si la pantalla es mayor a 768px (pantallas grandes)
+                document.getElementById('mensajeError').style.display = 'block';
+                document.querySelector('.solo-celular').style.display = 'none';
+            } else {
+                // Mostrar contenido móvil si la pantalla es de tamaño móvil
+                document.getElementById('mensajeError').style.display = 'none';
+                document.querySelector('.solo-celular').style.display = 'block';
+            }
+        }
+
+        // Ejecutar al cargar la página
+        detectarPantalla();
+
+        // Ejecutar cada vez que se redimensiona la ventana
+        window.addEventListener('resize', detectarPantalla);
+    </script>
+
+</body>
+</html>
