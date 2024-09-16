@@ -1,3 +1,4 @@
+
 function detectarPantalla() {
     if (window.innerWidth > 768) {
         // Mostrar mensaje de error si la pantalla es mayor a 768px (pantallas grandes)
