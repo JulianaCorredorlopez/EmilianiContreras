@@ -1,51 +1,71 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-}
+@import url('https://fonts.googleapis.com/css2?family=Fresca&display=swap');
 
-.imgInicio {
+* {}
+
+.fondo {
+    background: url('../img/fondo.png');
     background-repeat: no-repeat;
-    height: 630px;
-    width: 400px;
-
-}
-
-.contenedor {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-family: "Playwrite CU", cursive;
 }
 
-.nombreR {
+.mesero {
     display: flex;
-    flex-direction: column;
+    justify-content: flex-end;
+    /* Centra horizontalmente */
     align-items: center;
+    width: 100px;
+    margin-top: 30px;
+
+}
+
+span {
+    display: flex;
     justify-content: center;
-    font-family: "Bebas Neue", sans-serif;
-    margin-top: -930px;
-    font-size: 70px;
-    color: rgb(247, 247, 247);
+    /* Centra horizontalmente */
+    align-items: center;
+    font-family: 'Fresca';
+    font-weight: bolder;
+    text-align: center;
+    padding: 0px;
+}
+
+.menutitulo {
+    color: #ff914d;
+    font-size: 65px;
+}
+
+.restTitulo {
+    color: #59b379;
+    font-size: 40px;
 
 }
 
-.imgProximo {
-    height: 80px;
-    width: 80px;
-    margin-top: -500px;
-    border: none;
-    border-radius: 4px;
-    background: linear-gradient(orange);
-    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.6);
-    transition: all 100ms;
-
+.circulo {
+    display: flex;
+    justify-content: center;
+    /* Centra horizontalmente */
+    align-items: center;    
+    width: 100%;
+    /* Ancho del semicírculo */
+    height: 200px;
+    /* Altura es la mitad del ancho para lograr un semicírculo */
+    background-color: rgba(255, 145, 77, 0.8);
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
 }
 
-.imgProximo:active {
-    transform: translate(-2px);
-    box-shadow: 0 3px 1px rgba(0, 0, 0, 0.6);
-
+.botonIniciar{
+    color:white;
+    border: 0px;
+    font-family: 'Fresca';
+    font-size: 35px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 15px;
 }
