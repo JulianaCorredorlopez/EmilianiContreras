@@ -19,11 +19,32 @@
     background-color: rgb(255, 236, 195);
 }
 
+.btn-regresar {
+    background-color: black;
+    color: white;
+    margin-left: -320px;
+    margin-top: -30px;
+    border: none;
+    padding: 2px 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-regresar:hover {
+    background-color: black;
+}
+
+.titulo{
+    margin-top: -902px;
+}
+
 /* Estilo de la sección del carrito */
 .cart {
     width: 50%;
+    margin-top: 20px;
     background-color: white;
-    margin-top: -922px;
+    margin-top: -px;
     width: 400px;
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
