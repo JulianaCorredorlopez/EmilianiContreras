@@ -47,3 +47,12 @@ function addToCar(productName, productPrice, quantityId) {
 
     localStorage.setItem('cart', JSON.stringify(cart));
 }
+
+/*aviso*/
+document.getElementById('botonAgregar').addEventListener('click', function() {
+    const aviso = document.getElementById('aviso');
+    aviso.style.display = 'block';
+    setTimeout(function() {
+        aviso.style.display = 'none';
+    }, 2000); // El aviso se mostrará por 3 segundos
+});

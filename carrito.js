@@ -22,8 +22,8 @@ function updateCart() {
             <div>
                 <button onclick="decreaseCartItem(${index})">-</button>
                 <input type="text" value="${product.quantity}" readonly>
-                <button onclick="increaseCartItem(${index})">+</button>
-                <button onclick="removeFromCart(${index})">Eliminar</button>
+                <button class="mas" onclick="increaseCartItem(${index})" style="margin-right: 15px">+</button>
+                <button class="borrar" onclick="removeFromCart(${index})"><img src="img/basura.png" class="imgBasura"></button>
             </div>`;
         cartItems.appendChild(li);
         total += product.price * product.quantity; // Calcula el total
