@@ -57,3 +57,13 @@ function removeFromCart(index) {
     localStorage.setItem('cart', JSON.stringify(cart));
     updateCart(); // Actualiza el carrito
 }
+
+/*funcion del botón para cancelar*/
+// Selecciona el botón mediante su ID y añade un evento de clic
+document.getElementById('cancelar').addEventListener('click', function() {
+    // Selecciona la lista de productos mediante su ID
+    const listaProductos = document.getElementById('cartItems');
+    
+    // Elimina todos los elementos de la lista estableciendo el contenido HTML a una cadena vacía
+    cartItems.innerHTML = '';
+});
