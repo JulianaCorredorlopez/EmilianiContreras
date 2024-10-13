@@ -42,7 +42,7 @@
 /* Estilo de la sección del carrito */
 .cart {
     width: 50%;
-    margin-top: 20px;
+    margin-top: 40px;
     background-color: white;
     margin-top: -px;
     width: 400px;
@@ -52,7 +52,8 @@
 
 .cart ul {
     list-style-type: none;
-    padding: 0;
+    padding: 15px;
+    
 }
 
 /* Estilo de los productos dentro del carrito */
@@ -76,9 +77,10 @@
     margin: 0 5px;
 }
 
+
 .imgBasura{
     width: 35px;
-    height: 35px;
+    height: 28px;
     border: none;
     background-color: transparent;
 }
