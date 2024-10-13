@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>platos</title>
+    <script src="https://kit.fontawesome.com/712575d4a5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/ESTILOSADMINISTRADOR.CSS">
+    <style>
+        body {
+          background-color: rgb(252, 172, 88);
+        }
+    </style>
+</head>
+<body>
+
+  <div class="contenedor">
+    <div class="fondoP">
+      <img src="img/fondoP.jpg" class="fondoP">
+    </div>  
+
+    <div class="titulo"><h2><br>Acceso único para<br>Administradores</h2></div>
+
+    <button onclick="window.history.back()" class="btn-regresar"><img src="img/bregreso.png" class="imgbregreso"></button>
+    
+    <div class="formu">
+    <form action="administrador.php" method="POST">
+        <label for="id"><h3>Id:</h3></label><br>
+        <input type="number" id="id" name="id" maxlength="255" placeholder="Escribe aquí" required>
+        <br><br>
+        <label for="contraseña"><h3>Contraseña:<h3></label><br>
+        <input type="text" id="contraseña" name="contraseña" maxlength="255" placeholder="Escribe aquí" required>
+        <br><br><br><br><br><br>
+        <input class="ingre" type="submit" value="Ingresar">
+    </form>
+    </div>
+  </div>
+
+</body>
+</html>

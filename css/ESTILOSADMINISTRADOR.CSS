@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Playwrite CU", cursive;
+}
+
+.fondoP {
+    width: 400px;
+    height: 922px;
+    background-color: rgb(255, 236, 195);
+}
+
+.btn-regresar {
+    background-color: black;
+    color: white;
+    margin-left: -320px;
+    margin-top: -60px;
+    border: none;
+    padding: 2px 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-regresar:hover {
+    background-color: black;
+}
+
+.titulo{
+    margin-top: -930px;
+}
+
+.formu{
+    margin-top: 100px;
+    width: 360px;
+}
+
+input[type="text"] {
+    border: none;                 /* Elimina el borde del cuadro */
+    border-bottom: 2px solid #ffa600; /* Agrega una línea inferior */
+    outline: none;                /* Quita el contorno cuando está enfocado */
+    width: 100%;                  /* Hace que el campo ocupe el 100% del ancho del contenedor */
+    font-size: 16px;              /* Ajusta el tamaño del texto */
+    padding: 5px 0;               /* Añade un poco de espacio encima y debajo del texto */
+}
+
+input[type="text"]:focus {
+    border-bottom: 2px solid blue; /* Cambia el color de la línea cuando está enfocado */
+}
+
+input[type="number"] {
+    border: none;                 /* Elimina el borde del cuadro */
+    border-bottom: 2px solid #ffa600; /* Agrega una línea inferior */
+    outline: none;                /* Quita el contorno cuando está enfocado */
+    width: 100%;                  /* Hace que el campo ocupe el 100% del ancho del contenedor */
+    font-size: 16px;              /* Ajusta el tamaño del texto */
+    padding: 5px 0;               /* Añade un poco de espacio encima y debajo del texto */
+}
+
+input[type="number  "]:focus {
+    border-bottom: 2px solid blue; /* Cambia el color de la línea cuando está enfocado */
+}
+
+.ingre{
+    border: none;
+    outline: none;
+    display: flex;
+    padding: 20px;
+    font-family: "Playwrite CU", cursive;
+    font-weight: bold;
+    background-color: #ffa600;
+    margin-top: 330px;
+    margin-left: 10px;
+    color: white;
+    border: none;
+    width: 340px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    padding: 12px 0;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>platos</title>
+    <script src="https://kit.fontawesome.com/712575d4a5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/ESTILOSREGISTRO.CSS">
+    <style>
+        body {
+          background-color: rgb(252, 172, 88);
+        }
+    </style>
+</head>
+<body>
+
+  <div class="contenedor">
+    <div class="fondoP">
+      <img src="img/fondoP.jpg" class="fondoP">
+    </div>  
+
+    <div class="titulo"><h2><br>Registro de <br>Información</h2></div>
+
+    <button onclick="window.history.back()" class="btn-regresar"><img src="img/bregreso.png" class="imgbregreso"></button>
+    
+    <div class="formu">
+    <form action="registro.php" method="POST">
+        <label for="nombre"><h3>Nombre:</h3></label><br>
+        <input type="text" id="nombre" name="nombre" maxlength="255" placeholder="Escribe aquí" required>
+        <br><br>
+        <label for="correo"><h3>Correo:<h3></label><br>
+        <input type="text" id="correo" name="correo" maxlength="255" placeholder="Escribe aquí">
+        <br><br>
+        <label for="numero"><h3>Número:</h3></label><br>
+        <input type="number" id="numero" name="numero" maxlength="10" placeholder="Escribe aquí">
+        <br>
+        <input class="envi" type="submit" value="Enviar">
+    </form>
+    </div>
+  </div>
+
+</body>
+</html>
