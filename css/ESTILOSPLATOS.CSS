@@ -27,6 +27,7 @@
 
 }
 
+
 .boton{    
     color: white;
     font-size: 10px;
@@ -60,22 +61,16 @@
     cursor: pointer;
 } */
 
-.textoCa{
-    margin-top: 90px;
-    font-size: 150%;
-    margin-left: -250px;
-    
+.textoCa{    
+    font-size: 150%;        
 }
 
 .scrolling-apartados{
-    display: flex;
-    flex-wrap:nowrap;
+    display: flex;    
+    align-items: center;    
     overflow-x: auto;
-    white-space: nowrap;
-    width: 400px;
-    height: 100px;
-    margin-top: -32px;
-
+    white-space: nowrap;    
+    padding: 15px;
 }
 
 
@@ -96,8 +91,7 @@
     column-gap: 50px;
 }
 
-.ham{
-    margin-top: 50px;
+.ham{    
     margin-left: 10px;
     font-weight: 0.5px;
     color: rgb(0, 0, 0);
@@ -119,8 +113,7 @@
 }
 
 
-.per{
-    margin-top: 50px;
+.per{    
     margin-left: 10px;
     background-color: white;
     font-weight: 0.5px;
@@ -149,8 +142,7 @@
 
 }
 
-.lasa{
-    margin-top: 50px;
+.lasa{    
     margin-left: 10px;
     background-color: white;
     font-weight: 0.5px;
