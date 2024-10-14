@@ -1,98 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>platos</title>
-    <script src="https://kit.fontawesome.com/712575d4a5.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/ESTILOSPLATOSL.CSS">
-    <style>
-        body {
-          background-color: rgb(252, 172, 88);
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Platos - Lasañas</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/712575d4a5.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/ESTILOSPLATOS.CSS">
+
+  <style>
+    body {
+      background-color: rgb(252, 172, 88);
+    }
+  </style>
 </head>
 <body>
-
-  <div class="contenedor">
-    <div class="fondoP">
-      <img src="img/fondoP.jpg" class="fondoP">
-    </div>  
-    
-<<<<<<< HEAD
-  <div class="textoP">
-    <p>Realiza tu pedido</p>
-    <p>aquí!</p>
-
-    <a href="index.html">
-      <img src="img/camarero.png" class="imgCamarero">
-    </a>  
-
-  <div class="buscar">
-    <input type="text" placeholder="Buscar...">
-    <div class="btn">
-      <i class="fa-solid fa-magnifying-glass icon"></i>
-=======
-    <div class="textoP">
-      <center><p>Realiza tu pedido</p>
-      <p>aquí!</p></center>
-  
-    <img src="img/camarero.png" class="imgCamarero" style="margin-top:-15%;">
-  
-    <div class="buscar">
-      <input type="text" placeholder="Buscar...">
-      <div class="btn">
-        <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
+  <div class="container-fluid bg-white">
+    <div class="row bg-white">
+      <div class="col-md-12 d-flex justify-content-center align-items-center flex-column">
+        <div class="col-md-3">&nbsp;</div>
+        <div class="col-md-8">
+          <center>
+            <h1>Realiza tu pedido</h1>
+            <h1>aquí!</h1>
+          </center>
         </div>
->>>>>>> b19db535c7108ee65b0559cf7c4873b966a6258b
+        <div class="col-md-3 mb-2 d-flex justify-content-end">
+          <img src="img/camarero.png" width="80" class="img-fluid">
+        </div>
+      </div>
+    </div>
+    <div class="row bg-white pb-3 d-flex justify-content-center align-items-center">
+      <div class="col-md-4">&nbsp;</div>
+      <div class="col-md-4">
+        <div class="buscar">
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn  boton" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+          </form>
+        </div>
+      </div>
+      <div class="col-md-4">&nbsp;</div>
+    </div>
+    <div class="row d-flex justify-content-center align-content-center">
+      <div class="col-md-4 d-flex align-content-center justify-content-start">
+        <div class="textoCa">
+          <B>
+            <p>Categorias: </p>
+          </B>
+        </div>
+      </div>
     </div>
 
-  </div>
-  
-  <div class="textoCa">
-    <B><p>Categorias: </p></B>
-  
-  </div>
-
-
-
-    <div class="scrolling-apartados">
-      <a href="platos.html">
-        <button class="ham"><img src="img/imgHam.png" class="imgh">Hamburguesas</button>
-      </a>
-      <a href="platosP.html">
-        <button class="per"><img src="img/imgPer.png" class="imgPer">Perros</button>
-      </a>
-      <button class="lasa"><img src="img/imgLasa.png" class="imgLasa">Lasañas</button>
-
-  </div>
-
-    <div class="menuHam1c">
-      <div>
-        <a href="lasPollo.html">
-          <button class="hPo"><img src="img/imghPo.png" class="imghPo"><p><b>Lasaña</b></p><p><b>de pollo</b></p><p>200 gr pollo + queso</p><p>Lechuga + tomate</p><p>$22.00 <style class="precio"></style></p></p></button>
+    <div class="row d-flex justify-content-center align-content-center">
+      <div class="col-md-4">&nbsp;</div>
+      <div class="col-md-4 d-flex justify-content-center align-content-center">
+        <div class="scrolling-apartados">
+          <a href="platos.html" style="text-decoration: none;">
+          <button class="ham"><img src="img/imgHam.png" class="imgh">Hamburguesas</button>
         </a>
-        <a href="lasQueso.html">
-          <button class="hQu"><img src="img/imghQu.png" class="imghQu"><p><b>Lasaña</b></p><p><b>de queso</b></p><p>200 gr carne + queso</p><p>lechuga + cebolla</p><p>+ tomate</p><p>$22.00</p></p></button>
-        </a>
-      </div>  
-
+          <a href="platosP.html" style="text-decoration: none;">
+            <button class="per"><img src="img/imgPer.png" class="imgPer">Perros</button>
+          </a>
+          <a href="platosL.html" style="text-decoration: none;">
+            <button class="lasa"><img src="img/imgLasa.png" class="imgLasa">Lasañas</button>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-4">&nbsp;</div>
     </div>
-    
-    <div class="menuH2c">
-      <div>
-        <a href="lasCarne.html">
-          <button class="hPo"><img src="img/imghPo.png" class="imghPo"><p><b>Lasaña</b></p><p><b>de carne</b></p><p>200 gr pollo + queso</p><p>Lechuga + tomate</p><p>$22.00</p></button>
+    <div class="row d-flex justify-content-center align-content-center"> 
+      <center class="mt-3"><h1>Productos</h1></center>        
+      <div class="col-md-3 mt-3">
+        <a href="hamPollo.html" style="text-decoration: none; height: 236;">
+        <div class="card">
+          <div class="card-body d-flex justify-content-center align-content-center flex-column" style="text-align: center; align-items: center; justify-content: center; height: 236;">
+            <div class="align-content-center" style="width: 140px; height: 140px;">
+              <img src="img/imgpIt.png"  class="img-fluid">
+            </div>   
+            <p class="text-center" style="width: 45%;"><b>Perro Caliente</b> hawaiano</b>            
+          </div>
+          <div class="card-footer" style="text-align: center; height: 136px;">
+            <p style="padding-left: 30px; padding-right: 30px;">200 gr pollo + queso + Lechuga + tomate</p>
+            <p>$22.00</p>            
+          </div>
+        </div>
         </a>
-        <a href="lasVegetales.html">
-          <button class="hQu"><img src="img/imghQu.png" class="imghQu"><p><b>Lasaña</b></p><p><b>de vegetales</b></p><p>200 gr carne + queso</p><p>lechuga + cebolla</p><p>+ tomate</p><p>$22.00</p></p></button>
-        </a>
-     </div>
-
+      </div>      
     </div>
+  </div>        
 
   </div>
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/0b7f74e059.js" crossorigin="anonymous"></script>
 </body>
 </html>
