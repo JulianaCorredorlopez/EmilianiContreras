@@ -3,7 +3,7 @@
 * {}
 
 .fondo {
-    background: url('../img/fondo.png');
+    background: url('../img/inicio.jpg');
     background-repeat: no-repeat;
     width: 100%;
     height: 100vh;
@@ -35,27 +35,25 @@ span {
 }
 
 .menutitulo {
-    color: #ff914d;
+    color: #ffffff;
     font-size: 65px;
+   text-shadow: 10px 4px 4px rgb(236, 154, 31);
 }
 
 .restTitulo {
-    color: #59b379;
+    color: white;
     font-size: 40px;
-
+    text-shadow: 10px 4px 4px #2c7729;
 }
 
 .circulo {
     display: flex;
     justify-content: center;
-    /* Centra horizontalmente */
     align-items: center;    
     width: 100%;
-    /* Ancho del semicírculo */
-    height: 200px;
-    /* Altura es la mitad del ancho para lograr un semicírculo */
+    height: 120px;
     background-color: rgba(255, 145, 77, 0.8);
-    border-top-left-radius: 200px;
+    border-top-left-radius: 220px;
     border-top-right-radius: 200px;
 }
 
