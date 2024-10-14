@@ -20,28 +20,30 @@
 }
 
 .btn-regresar {
-    background-color: black;
-    color: white;
-    margin-left: -320px;
-    margin-top: -30px;
+    background: rgb(255, 128, 23);
     border: none;
-    padding: 2px 2px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    padding: 0;
+  }
 
-.btn-regresar:hover {
-    background-color: black;
-}
+  .btn-regresar img {
+    width: 24px;
+  }
 
 .titulo{
-    margin-top: -902px;
+    margin-top: -879px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #343a40;   
 }
 
 /* Estilo de la sección del carrito */
 .cart {
-    width: 50%;
+    width: 40%;
     margin-top: 40px;
     background-color: white;
     margin-top: -px;
@@ -55,7 +57,25 @@
     padding: 15px;
     
 }
-
+#cart-items li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 12px 15px;
+    background-color: #f8f9fa;
+    border-radius: 15px;
+    border: 1px solid #eaeaea;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05);
+  }
+  .input-group input {
+    width: 45px;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+    margin-right: 8px;
+    padding: 5px;
+  }
 /* Estilo de los productos dentro del carrito */
 .cart ul li {
     padding: 5px 0;
@@ -76,7 +96,24 @@
     text-align: center;
     margin: 0 5px;
 }
+.total {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #343a40;
+  }
 
+  footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  .cart h3 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #343a40;
+    font-weight: bold;
+  }
 
 .imgBasura{
     width: 35px;
@@ -96,6 +133,12 @@ footer {
     text-align: center;
     padding: 10px;
     border-top: 1px solid #ccc;
+}
+.product-info {
+    flex-grow: 1;
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 #cancelar{
