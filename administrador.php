@@ -12,7 +12,7 @@ $resultado= mysqli_query($conexion, $consulta);
 $filas=mysqli_num_rows($resultado);
 
 if($filas){
-    header("location:platos.html");
+    header("location:paginaAdmin.html");
 
 }else{
     include("administrador.html");

@@ -90,13 +90,21 @@ input[type="number  "]:focus {
     padding: 12px 0;
 }
 
-#botonFijo{
+.boton-flotante {
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 20px;   /* Distancia desde el borde inferior */
+    right: 20px;    /* Distancia desde el borde derecho */
+    background-color: #28a745;
+    color: white;
     border: none;
-    padding: 10px 20px;
+    border-radius: 50%;   /* Botón circular */
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
     cursor: pointer;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba (0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
 }
